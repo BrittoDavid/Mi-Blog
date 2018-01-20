@@ -12,7 +12,7 @@
 		background: #222833;
 	}
 
-	body, input, select, textarea {
+	body,select, textarea {
 		color: #555555;
 		font-family: 'Raleway', sans-serif;
 		font-size: 13pt;
@@ -43,6 +43,13 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
+		font-weight: 700;
+		line-height: 1.75em;
+		margin-bottom: 1em;
+	}
+
+	.h2{
+		color: black;
 		font-weight: 700;
 		line-height: 1.75em;
 		margin-bottom: 1em;
@@ -112,64 +119,120 @@
 		padding-top: 3em;
 	}
 
-/* Form */
+/* Form*/
+	
+	.styles_form{
+		background: white;
+	}	
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		background: none;
-		border: solid 1px #888888;
-		color: inherit;
-		display: block;
-		outline: 0;
-		padding: 0.75em;
-		text-decoration: none;
-		width: 100%;
-	}
-
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		textarea:focus {
-			border-color: #3ac984;
-		}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"] {
-		line-height: 1em;
-	}
-
-	::-webkit-input-placeholder {
-		color: inherit;
-		opacity: 0.5;
+	.formulario{
+		width: 750px;
+		margin: auto;
+		max-width: 100%;
+		margin-top: 30px; 
+		padding:20px;
+		box-shadow: 0 0 250px 1px rgba(0,0,0,0.7);
 		position: relative;
-		top: 3px;
+		background-color: rgba(0,0,0,0.2);
 	}
 
-	:-moz-placeholder {
-		color: inherit;
-		opacity: 0.5;
+
+	.formulario__titulo{
+		text-align: center;
+		margin-top: 0;
+		color: rgba(0,0,0,0.7);
 	}
 
-	::-moz-placeholder {
-		color: inherit;
-		opacity: 0.5;
+	.formulario__input, .formulario__label,.formulario__submit{
+		display: block;
+		width: 97%;
+		border: 1px ;
+		font-size: 1.3em;
 	}
 
-	:-ms-input-placeholder {
-		color: inherit;
-		opacity: 0.5;
+
+
+	.formulario__input{
+		padding: 20px;
+		border: 1px solid rgba(0,0,0,0.3);
+		margin-bottom:  40px;
+		background: transparent;
 	}
 
-	.formerize-placeholder {
-		color: rgba(85, 85, 85, 0.5) !important;
+
+
+	.formulario__label{
+		padding-left: 15px;
+		position: absolute;
+		margin-top: -85px;
+		z-index: 0;
+	    color:#000;
+		transition: 0.5s;
+	}
+
+	.formulario__label:hover{
+		margin-top: -135px;
+	}
+
+	.formulario__submit{
+		color: white;
+		cursor: pointer;
+		border: none;
+		background-color: rgba(10,50,130,0.8);
+		margin-bottom: 10px;
+	}
+
+	.formulario__input:focus{
+
+		outline: 1px solid rgba(0,0,0,0.7);
+	}
+
+
+
+	.formulario__input:focus + .formulario__label{
+		margin-top: -135px;
+	}
+
+
+	.fijar{
+		margin-top: -135px;
+	}
+
+	.input_1,.label_1{
+		width: 48%;
+		border: 1px ;
+		font-size: 1.3em;
+	}
+
+	.input_1{
+		padding: 20px;
+		border: 1px solid rgba(0,0,0,0.3);
+		margin-bottom:  40px;
+		background: transparent;
+	}
+
+	.label_1{
+		margin-left: -200px;
+		margin-top: 20px;
+		position: absolute;
+		color: rgba(0,0,0,0.7);
+		transition: 0.5s;
+	}
+	
+	.label_1:hover{
+		margin-top: -30px;
+	}
+
+	.input_1:focus{
+		outline: 1px solid rgba(0,0,0,0.7);
+	}
+
+	.input_1:focus + .label_1{
+		margin-top: -30px;
+	}
+
+	.letras{
+		margin-top: -30px;
 	}
 
 /* Image */
@@ -445,7 +508,7 @@
 	.wrapper.style1 {
 		background: #fff;
 	}
-
+	
 	.wrapper.style2 {
 		background: #ececec;
 		padding: 6em 0;
