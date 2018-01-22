@@ -70,17 +70,21 @@
 							<span class="byline">Por favor ingrese los siguientes datos</span>
 							<form action="Resultado.php" method="post" class="formulario">
 							   	
-							   	<input type="text" name="nombre"   class="input_1" required/>
-							   	<label for="" class="label_1">Nombre</label>
+							   	<span class="byline">Nombre</span>
+							   	<input type="text" name="nombre"   class="formulario__input" required/><br>
+							   	
 							    
-							    <input type="text" name="apellido"   class="input_1" required/>
-							    <label for="" class="label_1">Apellido</label>
-
+							    <span class="byline">Apellido</span>
+							    <input type="text" name="apellido"   class="formulario__input" required/><br>
+							    
+								
+								<span class="byline">Correo</span>
 							    <input type="email" name="correo"  class="formulario__input" required/>
-							    <label for="" class="formulario__label">Email</label>
-
+							    
+								
+								<span class="byline">Asunto</span>
 							    <input type="text" name="asunto"   class="formulario__input" required/>
-							    <label for="" class="formulario__label">Asunto</label>
+							    
 								
 								<span class="byline">Mensaje</span>
 							    <textarea type="text" name="cuerpo" class="Area" required/></textarea> 
