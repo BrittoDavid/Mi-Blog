@@ -1,15 +1,19 @@
+<?php 
+	error_reporting(0);
+ ?>
+
 <!DOCTYPE HTML>
 
 <html>
 	<head>
-		<title>Formulario</title>
+		<title>Datos</title>
 		<!--Aqui ponemos el icono de la pagina-->
 		<link rel="icon" href="images/icono.png"/>
 		<!--Los metas-->
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<!--Llamamos al JavaScript-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -20,7 +24,6 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="misEstilos.css" />
 		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="no-sidebar">
 <!-- Header -->
@@ -66,29 +69,14 @@
 				<div class="container">
 					<section>
 						<header class="major">
-							<h2 class="h2">Formulario</h2>
-							<span class="byline">Por favor ingrese los siguientes datos</span>
-							<form action="Resultado.php" method="post" class="formulario">
-							   	
-							   	<input type="text" name="nombre"   class="input_1" required/>
-							   	<label for="" class="label_1">Nombre</label>
-							    
-							    <input type="text" name="apellido"   class="input_1" required/>
-							    <label for="" class="label_1">Apellido</label>
-
-							    <input type="email" name="correo"  class="formulario__input" required/>
-							    <label for="" class="formulario__label">Email</label>
-
-							    <input type="text" name="asunto"   class="formulario__input" required/>
-							    <label for="" class="formulario__label">Asunto</label>
+							<h2 class="h2">Confirmacion</h2>
+							<span class="byline">Sus datos fueron enviados con exito</span>
 								
-								<span class="byline">Mensaje</span>
-							    <textarea type="text" name="cuerpo" class="Area" required/></textarea> 
-
-							    <input type="submit" class="formulario__submit" value="Enviar" name="resgistre">
-							  </form>
-
-							  <script src="js/formulario.js"></script>
+								<div>
+					 				<form action='index.html'>
+										<input type='submit' value='Volver al inicio' class='pregunta'>
+									</form>
+					 			</div>
 
 						</header>
 					</section>
