@@ -257,11 +257,19 @@
 				width: 100%;
 			}
 
-		.image.photo img{
+		.image.primaria img{
 			display: block;
 			width: 200px;
 			height: 250px;
 			margin-left: 300px;
+			margin-bottom: 20px;
+		}
+
+		.image.segundaria img{
+			display: block;
+			width: 250px;
+			height: 300px;
+			margin-left: 140px;
 			margin-bottom: 20px;
 		}
 
