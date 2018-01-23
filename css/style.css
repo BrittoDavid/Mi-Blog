@@ -257,6 +257,14 @@
 				width: 100%;
 			}
 
+		.image.photo img{
+			display: block;
+			width: 200px;
+			height: 250px;
+			margin-left: 300px;
+			margin-bottom: 20px;
+		}
+
 /* Icon */
 
 	.icon {
