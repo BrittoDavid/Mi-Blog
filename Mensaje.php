@@ -3,17 +3,16 @@
  ?>
 
 <!DOCTYPE HTML>
-
 <html>
 	<head>
-		<title>Datos</title>
+		<title>Mi blog</title>
 		<!--Aqui ponemos el icono de la pagina-->
 		<link rel="icon" href="images/icono.png"/>
 		<!--Los metas-->
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--Llamamos al JavaScript-->
+		<!--Llamamos el JavaScript-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -22,11 +21,11 @@
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="misEstilos.css" />
 		</noscript>
 	</head>
-	<body class="no-sidebar">
-<!-- Header -->
+	<body class="homepage">
+
+		<!-- Header -->
 			<div id="header">
 				<div class="container">
 						
@@ -40,11 +39,10 @@
 								<li>
 									<a href="">Sobre mi</a>
 									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
+										<li><a href="yo.html">¿Quien soy yo?</a></li>
+										<li><a href="familia.html">Familia</a></li>
 										<li>
-											<a href="">Phasellus consequat</a>
+											<a href="pasaTiempos.html">Pasa tiempos</a>
 											<ul>
 												<li><a href="#">Lorem ipsum dolor</a></li>
 												<li><a href="#">Phasellus consequat</a></li>
@@ -55,7 +53,6 @@
 										</li>
 									</ul>
 								</li>
-								<li><a href="Hobbies.html">Hobbies</a></li>
 								<li><a href="Estudios.html">Estudios</a></li>
 								<li><a href="Formulario.html">Contacto</a></li>
 							</ul>
