@@ -632,12 +632,12 @@
 			}
 
 			#nav > ul > li.active {
-				background: #3ac984;
+				background: rgba(24,24,24,0.7);
 				
 			}
 
 				#nav > ul > li.active a {
-					color: black;
+					color: #fff;
 				}
 
 			#nav > ul > li > ul {
@@ -648,7 +648,7 @@
 
 	.dropotron {
 		margin-top: -2px;
-		background: #3ac984;
+		background: rgba(24,24,24,0.7);
 		border-radius: 10px;
 		color: white;
 		min-width: 12em;
